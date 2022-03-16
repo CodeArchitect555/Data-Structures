@@ -26,12 +26,3 @@ class Linked_List:
             print(current_node.data)
             current_node = current_node.next
         print("none")    
-
-ll = Linked_List()
-ll.insert(2)
-ll.insert(3)
-ll.insert(4)
-ll.insert(5)
-ll.insert(6)
-ll.insert(7)
-ll.print_list()
